@@ -1,3 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "tailwindcss/preflight";
 @import "tailwindcss";
+
+@theme{
+  --color-brick: #D00000;
+  --color-brick-dark: #A00000;
+  --color-ice: #B0D7FF;
+  --color-pearl: #F3DFBF;
+  --color-blue: #032B43;
+  --color-spruce: #136f63;
+  --color-spruce-dark: #0b4f4a;
+
+  --color-text: #F3DFBF;
+}
+
+body {
+  @apply bg-spruce bg-spruce-dark;
+}
+
+html, body {
+  @apply h-full;
+}
